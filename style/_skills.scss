@@ -1,0 +1,39 @@
+.skills {
+  background: #ff64cb;
+  padding: 3em 4em;
+}
+
+.skills-container ul li {
+  background: white;
+  padding: 2em 5em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+
+  .icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+
+    &.one {
+      width: 65px;
+    }
+
+    &.two {
+      width: 75px;
+    }
+
+    &.three {
+      width: 50px;
+    }
+  }
+
+  .skill-title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .featured-desc {
+    margin-bottom: 2em;
+  }
+}

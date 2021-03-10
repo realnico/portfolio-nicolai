@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="487.53" height="487.686" viewBox="0 0 487.53 487.686">
+  <g id="footer-design" transform="translate(-1434 -4322)">
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="162" height="162" rx="20" transform="translate(1758 4322)" fill="#ff64cb"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" width="162" height="162" rx="81" transform="translate(1758 4484)" fill="#fff"/>
+    <path id="Path_20" data-name="Path 20" d="M20,0H142a20,20,0,0,1,20,20V142c0,5.18,3.443,16.218,0,20s-14.135,0-20,0H20A20,20,0,0,1,0,142V20A20,20,0,0,1,20,0Z" transform="translate(1758 4646)" fill="#ff64cb"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="162" height="162" rx="20" transform="translate(1596 4484)" fill="#00e8ff"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="162" height="162" rx="20" transform="translate(1434 4646)" fill="#ff64cb" opacity="0.25"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="162" height="162" rx="81" transform="translate(1596 4646)" fill="#fff"/>
+  </g>
+</svg>

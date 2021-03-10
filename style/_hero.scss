@@ -1,0 +1,29 @@
+.hero {
+  background: #720afc;
+  color: white;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.hero-design {
+  display: none;
+}
+
+.meet {
+  display: flex;
+  margin: 0 auto;
+  width: 225px;
+  font-weight: bold;
+  color: #ff64cb;
+
+  span {
+    margin-top: 1em;
+    margin-right: 0.5em;
+  }
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 1em;
+}

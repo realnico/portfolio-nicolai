@@ -297,7 +297,7 @@ section {
     display: grid;
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
-    grid-gap: 2em;
+    grid-gap: 3em;
   }
   .projects {
     padding-top: 6em;
@@ -352,6 +352,73 @@ section {
     padding: 0;
     padding-right: 2em;
     color: white;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+  }
+  .hero .content {
+    background: #720afc;
+    padding: 6em 8em 6em 4em;
+    text-align: left;
+  }
+  .hero .content h1 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+  }
+  .meet {
+    margin: unset;
+  }
+  .hero-design {
+    display: unset;
+    margin-left: -60%;
+    margin-top: 15%;
+    width: 120%;
+  }
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .nav-container header {
+    background: #6700ee;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .social-header {
+    display: block;
+    padding: 2em 4em 2em 0;
+  }
+  .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 7em;
+    float: right;
+  }
+  .social-header ul img {
+    width: 20px;
+  }
+  section {
+    padding: 4em;
+  }
+  .projects img {
+    float: right;
+    max-width: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */

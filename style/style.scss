@@ -71,7 +71,10 @@ section {
   .skills-container ul {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 2em;
+    grid-gap: 3em;
+
+    li {
+    }
   }
 
   .projects {
@@ -127,5 +130,76 @@ section {
         color: white;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+
+    .content {
+      background: #720afc;
+      padding: 6em 8em 6em 4em;
+      text-align: left;
+
+      h1 {
+        font-size: 3.5em;
+        line-height: 1.2em;
+      }
+    }
+  }
+
+  .meet {
+    margin: unset;
+  }
+
+  .hero-design {
+    display: unset;
+    margin-left: -60%;
+    margin-top: 15%;
+    width: 120%;
+  }
+
+  .nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+
+    header {
+      background: #6700ee;
+    }
+  }
+
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+
+  .social-header {
+    display: block;
+    padding: 2em 4em 2em 0;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 7em;
+      float: right;
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+
+  section {
+    padding: 4em;
+  }
+
+  .projects img {
+    float: right;
+    max-width: 500px;
   }
 }

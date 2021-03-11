@@ -117,7 +117,7 @@ header ul a {
 
 .skills-container ul li {
   background: white;
-  padding: 2em 5em;
+  padding: 3em 4em;
   border-radius: 1em;
   margin-bottom: 2em;
 }
@@ -210,7 +210,7 @@ footer {
 
 .footer-nav .list-footer .link-footer {
   display: block;
-  padding: 0 1em;
+  padding: 1em;
   color: white;
 }
 
@@ -225,6 +225,14 @@ footer {
 
 #footer-design {
   display: none;
+}
+
+.social-footer {
+  display: none;
+}
+
+#footer-logo {
+  font-size: 25px;
 }
 
 body {
@@ -250,5 +258,100 @@ img {
 section {
   padding: 4em 2em;
   text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .featured,
+  .projects {
+    text-align: left;
+  }
+  .featured {
+    overflow: hidden;
+  }
+  .featured,
+  .projects-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% auto;
+        grid-template-columns: 30% auto;
+  }
+  .left,
+  .projects-left {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+  }
+  .right {
+    margin-left: 4em;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .skills {
+    margin-top: -6em;
+    margin-bottom: -7em;
+    padding-top: 5em;
+  }
+  .skills-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 2em;
+  }
+  .projects {
+    padding-top: 6em;
+  }
+  .projects-container img {
+    margin-left: 2em;
+    margin-top: -10em;
+  }
+  .projects-left .inner {
+    margin-top: -4em;
+    margin-bottom: 5em;
+  }
+  .hire-me {
+    font-size: 26px;
+    padding: 3em;
+  }
+  footer {
+    text-align: left;
+  }
+  #footer-logo {
+    font-size: 26px;
+  }
+  .footer-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-image svg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0.5em 0em;
+  }
+  .footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2em 0em;
+    margin-top: -30px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .footer-nav .list-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-nav .list-footer .link-footer {
+    display: block;
+    padding: 0;
+    padding-right: 2em;
+    color: white;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -29,7 +29,7 @@ footer {
 
     .link-footer {
       display: block;
-      padding: 0 1em;
+      padding: 1em;
       color: white;
     }
   }
@@ -45,4 +45,12 @@ footer {
 
 #footer-design {
   display: none;
+}
+
+.social-footer {
+  display: none;
+}
+
+#footer-logo {
+  font-size: 25px;
 }

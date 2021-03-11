@@ -31,3 +31,101 @@ section {
   padding: 4em 2em;
   text-align: center;
 }
+
+@media only screen and (min-width: 800px) {
+  .featured,
+  .projects {
+    text-align: left;
+  }
+
+  .featured {
+    overflow: hidden;
+  }
+
+  .featured,
+  .projects-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+  }
+
+  .left,
+  .projects-left {
+    display: grid;
+    place-content: center;
+  }
+
+  .right {
+    margin-left: 4em;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .skills {
+    margin-top: -6em;
+    margin-bottom: -7em;
+    padding-top: 5em;
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2em;
+  }
+
+  .projects {
+    padding-top: 6em;
+  }
+
+  .projects-container img {
+    margin-left: 2em;
+    margin-top: -10em;
+  }
+
+  .projects-left {
+    .inner {
+      margin-top: -4em;
+      margin-bottom: 5em;
+    }
+  }
+
+  .hire-me {
+    font-size: 26px;
+    padding: 3em;
+  }
+
+  footer {
+    text-align: left;
+  }
+
+  #footer-logo {
+    font-size: 26px;
+  }
+
+  .footer-image {
+    display: flex;
+    svg {
+      flex-direction: column;
+      padding: 0.5em 0em;
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    padding: 2em 0em;
+    margin-top: -30px;
+    justify-content: start;
+
+    .list-footer {
+      display: flex;
+
+      .link-footer {
+        display: block;
+        padding: 0;
+        padding-right: 2em;
+        color: white;
+      }
+    }
+  }
+}

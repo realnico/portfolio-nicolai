@@ -171,6 +171,62 @@ header ul a {
   color: #ff64cb;
 }
 
+footer {
+  background: #6700ee;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer-logo {
+  color: #00e8ff;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+#copyright {
+  color: #ff64cb;
+  font-size: 14px;
+  margin-top: -5px;
+  letter-spacing: 0.5px;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  margin-top: -30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-nav .list-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-nav .list-footer .link-footer {
+  display: block;
+  padding: 0 1em;
+  color: white;
+}
+
+.footer-image svg {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  fill: white;
+  padding: 0.5em 3em;
+}
+
+#footer-design {
+  display: none;
+}
+
 body {
   height: 100vh;
   margin: 0;

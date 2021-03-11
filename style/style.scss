@@ -72,9 +72,6 @@ section {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 3em;
-
-    li {
-    }
   }
 
   .projects {
@@ -242,5 +239,61 @@ section {
     .inner {
       margin-right: -100px;
     }
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+
+  .social-header {
+    padding: 2em 20em 2em 0;
+  }
+
+  section {
+    padding: 6em 20em 4em 20em;
+  }
+
+  .hero .content {
+    padding: 9em 20em 6em 20em;
+  }
+
+  .social-header {
+    ul {
+      display: flex;
+      justify-content: unset;
+      width: 0em;
+
+      li {
+      }
+
+      img {
+        width: 20px;
+        padding: 0em 4em;
+        margin-left: -6em;
+      }
+    }
+  }
+
+  .skills {
+    background: #ff64cb;
+    padding: 3em 8em;
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 15em;
+  }
+
+  .skills-container ul li {
+    background: white;
+    padding: 6em 4em;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: -5em;
+    margin-left: -5em;
   }
 }
